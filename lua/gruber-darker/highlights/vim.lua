@@ -195,7 +195,7 @@ M.highlights.operator = Highlight.new("Operator", { fg = c.fg, italic = opts.ita
 ---Any other keyword
 M.highlights.keyword = Highlight.new("Keyword", { link = gruber_hl.yellow_bold })
 ---Try, catch, throw
-M.highlights.exception = Highlight.new("Exception", { link = gruber_hl.yellow_bold })
+M.highlights.exception = Highlight.new("Exception", { link = gruber_hl.red })
 ---(preferred) generic Preprocessor
 M.highlights.pre_proc = Highlight.new("PreProc", { link = gruber_hl.quartz })
 ---Preprocessor #include
