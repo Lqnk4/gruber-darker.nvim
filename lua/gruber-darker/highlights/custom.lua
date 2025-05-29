@@ -18,6 +18,7 @@ end
 
 
 M.highlights.rustUnsafeKeyword = Highlight.new("rustUnsafeKeyword", { fg = c.red, })
+M.highlights.rustSigil = Highlight.new("rustSigil", { fg = c.fg })
 
 
 
